@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <title>Sales Tax Calculator</title>
+</head>
+<body>
+    <div id="div1">
+    <header>
+     <h1>Sales Tax Calculator</h1>
+    </header>
+    <nav>
+    </nav>
+        <main>
+        <div id="webpage1">
+        <p>Enter Subtotal and Tax Rate and click 'Calculate'.</p>
+        <form method="GET" id="webpage1">
+        
+        <div class="webpage-st">
+        <label>Subtotal:</label>
+        <input type="text" name="subtotal" id="subtotal" placeholder="Enter value" required>
+        </div>
+
+        <div class="webpage-st">
+        <label>Tax Rate:</label>
+        <input type="text" name="taxrate" id="taxrate" placeholder="Enter Tax Rate Percentage" required>
+        </div>
+
+        <div class="webpage-st">
+        <label>Sales Tax:</label>
+        <input type="text" name="salestax" id="saletax"  disabled>
+        </div>
+
+        <div class="webpage-st">
+        <label>Total:</label>
+        <input type="text" name="total" id="total" disabled >
+        </div>
+
+        <div class="button1">
+        <input type="submit" name="submit" id="submit" value="Calculate">
+        </div>
+
+        <div class="button2">
+        <input type="reset" name="clear" id="clear" value="Clear">
+        </div>
+                    
+        </form>            
+        </div>
+        </main>
+        
+        <footer>
+        <p>&copy; SafalpreetSingh, N01649369 - 2024</p>
+        </footer>
+    </div>
+        <script src="../js/Salestaxcalculator.js"></script>
+</body>
+</html>
